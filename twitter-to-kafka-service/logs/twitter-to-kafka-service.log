@@ -1,0 +1,53 @@
+2021-10-01 16:00:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on BFK678-02 with PID 6008 (D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo\twitter-to-kafka-service\target\classes started by BFK678 in D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo)
+2021-10-01 16:00:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-10-01 16:00:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.521 seconds (JVM running for 1.887)
+2021-10-01 16:00:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-10-01 16:00:57 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-01 16:00:57 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.microservice.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:25)
+Caused by: java.lang.NullPointerException: null
+	at com.microservice.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795)
+	... 5 common frames omitted
+2021-10-01 16:09:52 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on BFK678-02 with PID 22896 (D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo\twitter-to-kafka-service\target\classes started by BFK678 in D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo)
+2021-10-01 16:09:53 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-10-01 16:09:53 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.609 seconds (JVM running for 1.886)
+2021-10-01 16:09:53 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-10-01 16:09:53 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-01 16:09:53 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.microservice.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:25)
+Caused by: java.lang.NullPointerException: null
+	at com.microservice.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795)
+	... 5 common frames omitted
+2021-10-01 16:11:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on BFK678-02 with PID 38560 (D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo\twitter-to-kafka-service\target\classes started by BFK678 in D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo)
+2021-10-01 16:11:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-10-01 16:11:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.546 seconds (JVM running for 1.689)
+2021-10-01 16:11:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-10-01 16:11:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-10-01 16:14:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on BFK678-02 with PID 11412 (D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo\twitter-to-kafka-service\target\classes started by BFK678 in D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo)
+2021-10-01 16:14:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-10-01 16:14:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.529 seconds (JVM running for 1.754)
+2021-10-01 16:14:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-10-01 16:14:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - null[Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-10-01 16:14:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on BFK678-02 with PID 2116 (D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo\twitter-to-kafka-service\target\classes started by BFK678 in D:\Cwiczenia\Udemy\kafka_spring_tutorial\microservices-demo)
+2021-10-01 16:14:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-10-01 16:14:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.523 seconds (JVM running for 1.681)
+2021-10-01 16:14:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-10-01 16:14:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome from Kafka[Java, Microservices, Spring, Kafka, Elasticsearch]
